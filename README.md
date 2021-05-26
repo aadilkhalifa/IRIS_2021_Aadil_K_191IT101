@@ -3,7 +3,7 @@
 ## Screenshots and recording
 Link: https://drive.google.com/drive/folders/1I_2PLFI3EMN0eyIFq7-CmQNi5__SG4K0?usp=sharing
 
-<a href="https://drive.google.com/uc?export=view&id=1Iaht8dxuPtrmZxCldDy3Yd4rpwhtfP7q"><img src="https://drive.google.com/uc?export=view&id=1Iaht8dxuPtrmZxCldDy3Yd4rpwhtfP7q" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+<a href="https://drive.google.com/uc?export=view&id=1Iaht8dxuPtrmZxCldDy3Yd4rpwhtfP7q"><img src="https://drive.google.com/uc?export=view&id=1Iaht8dxuPtrmZxCldDy3Yd4rpwhtfP7q" style="width: 250px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 ## List of implemented features
 1. Feature to add new transactions. 
