@@ -3,7 +3,7 @@
 ## Screenshots and recording
 Link: https://drive.google.com/drive/folders/1I_2PLFI3EMN0eyIFq7-CmQNi5__SG4K0?usp=sharing
 
-![alt text](https://drive.google.com/file/d/1Iaht8dxuPtrmZxCldDy3Yd4rpwhtfP7q/view?usp=sharing)
+![alt text](https://drive.google.com/uc?export=view&id=1Iaht8dxuPtrmZxCldDy3Yd4rpwhtfP7q)
 
 ## List of implemented features
 1. Feature to add new transactions. 
