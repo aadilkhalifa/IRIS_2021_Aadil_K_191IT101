@@ -18,6 +18,9 @@ Link: https://drive.google.com/drive/folders/1I_2PLFI3EMN0eyIFq7-CmQNi5__SG4K0?u
 3. Display more charts and statistics to analysis spending pattens.
 4. Create features for setting a monthly and tracking.
 5. Features to make the UI more customizable.
+6. Features to track available balance and to record credit values also in addition to debit.
+7. Code can be made much cleaner and better structured widget tree can be used.
+8. Usage of provider package for state management and hive for storing data can be improved since not much time was done in a hurry.
 
 ## List of known bugs
 
