@@ -3,7 +3,7 @@
 ## Screenshots and recording
 Link: https://drive.google.com/drive/folders/1I_2PLFI3EMN0eyIFq7-CmQNi5__SG4K0?usp=sharing
 
-<img src="https://drive.google.com/uc?export=view&id=1Iaht8dxuPtrmZxCldDy3Yd4rpwhtfP7q" width="200" />
+<img src="https://drive.google.com/uc?export=view&id=1IxAG-3UdH2zx6OpeoWoIAkMFt2HKf9BJ" width="200" />
 
 
 ## List of implemented features
