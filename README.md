@@ -1,7 +1,5 @@
 # wallet_app
 
-A new Flutter project.
-
 ## Screenshots and recording
 Link: https://drive.google.com/drive/folders/1I_2PLFI3EMN0eyIFq7-CmQNi5__SG4K0?usp=sharing
 
