@@ -5,15 +5,9 @@ A new Flutter project.
 ## Screenshots and recording
 Link: https://drive.google.com/drive/folders/1I_2PLFI3EMN0eyIFq7-CmQNi5__SG4K0?usp=sharing
 
-
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## List of implemented features
+1. Feature to add new transactions. 
+2. Feature to add new categories. 
+3. Feature to delete transaction. 
+4. Statistics on the total and type of transaction, with a filter of day, week, month and year.
+5. Pie Chart for displaying the above statistics. 
