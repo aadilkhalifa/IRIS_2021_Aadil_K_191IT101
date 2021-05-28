@@ -28,7 +28,7 @@ class Transactions with ChangeNotifier {
   void insert(double amt, DateTime dt, String cat) {
     var transaction = new Transaction(amt, dt, cat);
     _trans.insert(0, transaction);
-    _trans.sort((a, b) => a.dateTime.isAfter(b.dateTime) == true ? 1 : 0);
+    _trans.sort((a, b) => a.dateTime.isAfter(b.dateTime) == true ? 0 : 1);
     final box = Boxes.getTransactions();
     box.add(transaction);
   }

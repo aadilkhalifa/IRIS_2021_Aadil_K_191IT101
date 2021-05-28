@@ -56,6 +56,7 @@ class _NewTransactionState extends State<NewTransaction> {
   Widget build(BuildContext context) {
     final transactionsData = Provider.of<Transactions>(context);
     final trans = transactionsData.getTransactions;
+    final node = FocusScope.of(context);
     return Card(
       elevation: 5,
       child: Container(
@@ -67,6 +68,8 @@ class _NewTransactionState extends State<NewTransaction> {
               decoration: InputDecoration(labelText: 'Amount'),
               controller: amountController,
               keyboardType: TextInputType.number,
+              textInputAction: TextInputAction.next,
+              onEditingComplete: () => node.nextFocus(),
               // onSubmitted: (_) => submitData(),
               // onChanged: (val) => amountInput = val,
             ),
@@ -114,6 +117,8 @@ class _NewTransactionState extends State<NewTransaction> {
             TextField(
               decoration: InputDecoration(labelText: 'Remarks'),
               controller: remarksController,
+              textInputAction: TextInputAction.done,
+              onSubmitted: (_) => node.unfocus(),
               // onSubmitted: (_) => submitData(),
             ),
             Container(
