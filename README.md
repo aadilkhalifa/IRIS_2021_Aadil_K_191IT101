@@ -3,7 +3,7 @@
 ## Screenshots and recording
 Link: https://drive.google.com/drive/folders/1I_2PLFI3EMN0eyIFq7-CmQNi5__SG4K0?usp=sharing
 
-<img src="https://drive.google.com/uc?export=view&id=1IxAG-3UdH2zx6OpeoWoIAkMFt2HKf9BJ" width="200" />
+<img src="https://drive.google.com/uc?export=view&id=1KJ4k40BWN8Q_3qBQg53NpulfJSju7cS-" width="200" />
 
 
 ## List of implemented features
@@ -19,17 +19,18 @@ Link: https://drive.google.com/drive/folders/1I_2PLFI3EMN0eyIFq7-CmQNi5__SG4K0?u
 
 ## List of non-implemented/planned features
 1. Create templates for adding new transactions, to make it more convineint for the user to add frequent transactions. 
-2. Diplay the details for amounts of each category in addition to the static pic chart when the user hovers or taps.
-3. Display more charts and statistics to analysis spending pattens.
-4. Create features for setting a monthly and tracking.
-5. More optional details to a transaction could be allowed, which could be viewed on a new screen on tapping the card. Details such as adding tags to mark transactions could be added.
-6. Features for reminiders for monthly bill due dates could be set.
-7. Features to make the UI more customizable.
-8. Display a confirm button when user attempts to delete a transaction, to avoid accidental swiping a the transaction cards.
-9. Features to track available balance and to record credit values also in addition to debit.
-10. Code can be made much cleaner and better structured widget tree can be used.
-11. Usage of provider package for state management and hive for storing data can be improved since not much time was done in a hurry.
-12. Current application isn't designed for horizontal view. That could be worked on.
+2. Better way of managing categories, ability to remove unwanted categories as well.
+3. Diplay the details for amounts of each category in addition to the static pic chart when the user hovers or taps.
+4. Display more charts and statistics to analysis spending pattens.
+5. Create features for setting a monthly cap and tracking.
+6. More optional details to a transaction could be allowed, which could be viewed on a new screen on tapping the card. Details such as adding tags to mark transactions could be added.
+7. Features for reminiders for monthly bill due dates could be set.
+8. Features to make the UI more customizable.
+9. Display a confirm button when user attempts to delete a transaction, to avoid accidental swiping a the transaction cards.
+10. Features to track available balance and to record credit values also in addition to debit.
+11. Code can be made much cleaner and better structured widget tree can be used.
+12. Usage of provider package for state management and hive for storing data can be improved since not much time was done in a hurry.
+13. Current application isn't designed for horizontal view. That could be worked on.
 
 ## List of known bugs
 
