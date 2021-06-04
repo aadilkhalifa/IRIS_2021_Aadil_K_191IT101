@@ -79,7 +79,7 @@ class _NewTransactionState extends State<NewTransaction> {
                 Text('Category: '),
                 DropdownButton(
                     style: TextStyle(
-                      color: Theme.of(context).primaryColor,
+                      color: Theme.of(context).accentColor,
                       // backgroundColor: Colors.blue,
                     ),
                     value: _value,
@@ -102,8 +102,11 @@ class _NewTransactionState extends State<NewTransaction> {
                   onPressed: _displayDatePicker,
                   child: Text('pick date'),
                   style: ButtonStyle(
+                    foregroundColor: MaterialStateProperty.all<Color>(
+                        Theme.of(context).accentColor),
                     shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30.0))),
+                      borderRadius: BorderRadius.circular(30.0),
+                    )),
                   ),
                 ),
                 Container(
@@ -128,6 +131,10 @@ class _NewTransactionState extends State<NewTransaction> {
                 // textColor: Colors.purple,
                 onPressed: () => submitData(transactionsData),
                 style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all<Color>(
+                      Theme.of(context).accentColor),
+                  foregroundColor:
+                      MaterialStateProperty.all<Color>(Colors.black),
                   shape: MaterialStateProperty.all(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30.0))),
                 ),

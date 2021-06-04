@@ -38,8 +38,11 @@ class MyApp extends StatelessWidget {
         child: MaterialApp(
           title: 'Flutter Demo',
           theme: ThemeData(
-            scaffoldBackgroundColor: Colors.purple[50],
-            primarySwatch: Colors.purple,
+            // scaffoldBackgroundColor: Colors.purple[50],
+            scaffoldBackgroundColor: const Color(0xffFAE1DD),
+            // primarySwatch: Colors.purple,
+            primaryColor: const Color(0xffFCD5CE),
+            accentColor: const Color(0xffFF9B89),
           ),
           home: MyHomePage(title: 'Wallet'),
         ),
@@ -148,35 +151,39 @@ class _MyHomePageState extends State<MyHomePage> {
     final categories = categoriesData.getCategories;
     return Scaffold(
       appBar: AppBar(
-        // backgroundColor: Theme.of(context).primary[900],
+        backgroundColor: Theme.of(context).primaryColor,
         title: Text(widget.title),
         actions: [
           Center(
             child: FlatButton(
               child: Text(
                 "Add Category",
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Colors.black),
               ),
               onPressed: () => _startAddNewCategory(context),
             ),
           )
         ],
       ),
-      body: Column(
-        children: [
-          Container(
-              height: 250,
-              width: double.infinity,
-              child: Card(
-                child: chart_combined(categories),
-              )),
-          Expanded(child: DisplayTransactions(categories)),
-          Container(
-            // height: 300,
-            height: 0,
-            child: SingleChildScrollView(child: null),
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(5.0),
+        child: Column(
+          children: [
+            Container(
+                height: 250,
+                width: double.infinity,
+                child: Card(
+                  elevation: 3,
+                  child: chart_combined(categories),
+                )),
+            Expanded(child: DisplayTransactions(categories)),
+            Container(
+              // height: 300,
+              height: 0,
+              child: SingleChildScrollView(child: null),
+            )
+          ],
+        ),
       ),
       floatingActionButton: Row(mainAxisAlignment: MainAxisAlignment.center,
           // crossAxisAlignment: CrossAxisAlignment.end,

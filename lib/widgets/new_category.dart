@@ -46,6 +46,10 @@ class _NewCategoryState extends State<NewCategory> {
                 // textColor: Colors.blue,
                 onPressed: () => submitData(categoriesData),
                 style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all<Color>(
+                      Theme.of(context).accentColor),
+                  foregroundColor:
+                      MaterialStateProperty.all<Color>(Colors.black),
                   shape: MaterialStateProperty.all(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30.0))),
                 ),

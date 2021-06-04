@@ -71,7 +71,7 @@ class _chart_combinedState extends State<chart_combined> {
                   // isExpanded: true,
                   style: TextStyle(
                     // color: Colors.blue,
-                    color: Theme.of(context).primaryColor,
+                    color: Theme.of(context).accentColor,
                     // backgroundColor: Colors.blue,
                   ),
                   value: transactionsData.filterValue,
